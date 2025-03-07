@@ -1,8 +1,8 @@
 <?php 
 $host = 'localhost';
-$dbname = 'siteweb';
+$dbname = 'siteweb2';
 $password = 'rami2004';
-$user = 'root'; 
+$user = 'rami'; 
 
 try { 
     $pdo = new PDO('mysql:host='.$host.';dbname='.$dbname, $user, $password);
